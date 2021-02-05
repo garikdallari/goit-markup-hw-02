@@ -1,0 +1,15 @@
+/* Blue accent #2196F3 */
+/* Black #000000 */
+/* White #ffffff */
+/* Black secondary #212121 */
+/* Grey #757575 */
+/* White secondary #255,255,255,0.6 */
+
+:root {
+  --blue-accent: #2196f3;
+  --black-primary: #000000;
+  --black-secondary: #212121;
+  --white-primary: #ffffff;
+  --grey-op: #757575;
+  --white-secondary: rgba(255, 255, 255, 0.6);
+}
