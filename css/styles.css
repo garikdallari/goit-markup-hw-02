@@ -10,8 +10,8 @@
   --black-primary: #000000;
   --black-secondary: #212121;
   --white-primary: #ffffff;
-  --grey-op: #757575;
-  --white-secondary: rgba(255, 255, 255, 0.6);
+  --grey-cnt: #757575;
+  --white-secondary-op: rgba(255, 255, 255, 0.6);
 }
 ul {
   list-style: none;
@@ -42,11 +42,18 @@ body {
   color: var(--black-secondary);
 }
 .header .header-list:hover,
-.header .header-list:focus {
+.header .header-contact:hover,
+.header .header-list:focus,
+.header .header-contact:focus {
   color: var(--blue-accent);
 }
 
 .header .header-list.current {
   color: var(--blue-accent);
 }
-list
+.header .header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--grey-cnt);
+}
