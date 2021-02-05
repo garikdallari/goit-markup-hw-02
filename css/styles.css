@@ -13,3 +13,40 @@
   --grey-op: #757575;
   --white-secondary: rgba(255, 255, 255, 0.6);
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.header .header-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-primary);
+}
+.header .web {
+  color: var(--blue-accent);
+}
+.header .header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--black-secondary);
+}
+.header .header-list:hover,
+.header .header-list:focus {
+  color: var(--blue-accent);
+}
+
+.header .header-list.current {
+  color: var(--blue-accent);
+}
+list
