@@ -4,6 +4,7 @@
 /* Black secondary #212121 */
 /* Grey #757575 */
 /* White secondary #255,255,255,0.6 */
+/* bg #2F303A */
 
 :root {
   --blue-accent: #2196f3;
@@ -12,6 +13,7 @@
   --white-primary: #ffffff;
   --grey-cnt: #757575;
   --white-secondary-op: rgba(255, 255, 255, 0.6);
+  --background-color: #2f303a;
 }
 ul {
   list-style: none;
@@ -25,6 +27,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
+
 .header .header-link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -42,8 +45,8 @@ body {
   color: var(--black-secondary);
 }
 .header .header-list:hover,
-.header .header-contact:hover,
 .header .header-list:focus,
+.header .header-contact:hover,
 .header .header-contact:focus {
   color: var(--blue-accent);
 }
@@ -54,6 +57,73 @@ body {
 .header .header-contact {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.2;
+  color: var(--grey-cnt);
+}
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-primary);
+  background-color: var(--background-color);
+}
+.hero .hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  background-color: var(--blue-accent);
+  color: var(--white-primary);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features .features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--black-secondary);
+}
+.features .features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--grey-cnt);
+}
+.work .work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--black-secondary);
+}
+.team .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--black-secondary);
+}
+.team .team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--black-secondary);
+}
+.team .team-text {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.2;
   color: var(--grey-cnt);
 }
