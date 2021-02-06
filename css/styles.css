@@ -127,3 +127,30 @@ body {
   line-height: 1.2;
   color: var(--grey-cnt);
 }
+.footer {
+  background-color: var(--background-color);
+}
+.footer .footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white-primary);
+}
+.footer .web {
+  color: var(--blue-accent);
+}
+.footer .footer-adr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-primary);
+}
+.footer .footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-secondary-op);
+}
